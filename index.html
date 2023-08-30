@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="watch">
+        <div class="heading">
+          <h1>Stopwatch</h1>
+        </div>
+        <div class="flexed">
+          <div>
+            <p id="min" class="min">0.</p>
+          </div>
+          <div>
+            <p id="sec" class="sec">0.</p>
+          </div>
+          <div>
+            <p id="msec" class="msec">0</p>
+          </div>
+        </div>
+        <button onclick="start();" class="start" id="start">Start</button>
+        <button onclick="stop();" class="stop two-buttons" id="stop">Stop</button>
+        <button onclick="restart();" class="restart two-buttons" id="restart">Restart</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
